@@ -1,0 +1,110 @@
+.header {
+    background: var(--gray-700);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 1rem;
+    font-style: ;
+}
+
+.h1cm {
+    margin-left: 1rem;
+    color: var(--blue);
+}
+
+.h1sm {
+    margin-left: 0;
+    color: var(--purple-dark);
+}
+
+.central {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+.central .form input {
+    background: var(--gray-400);
+}
+
+
+
+.inferior {
+    background: var(--gray-500);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.headertot {
+    background: var(--gray-500);
+    color: var(--gray-300);
+    height: 54px;
+    width: 638px;
+    margin-top: 5px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.totais {
+    display: flex;
+    align-items: center;
+}
+
+.form {
+    height: 54px;
+    width: 736px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input {
+    background: var(--gray-500);
+    color: var(--gray-300);
+    height: 54px;
+    width: 638px;
+    border-radius: 8px;
+}
+
+.form button {
+    margin-left: 5px;
+    background: var(--blue-dark);
+    color: var(--white);
+
+    height: 54px;
+    width: 80px;
+    border-radius: 8px;
+
+}
+
+
+.task {
+    background: var(--gray-400);
+    color: var(--gray-300);
+    height: 54px;
+    width: 638px;
+    border-radius: 8px;
+    margin-top: 5px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+ 
+}
+
+.task div {
+    display: flex;
+    align-items: center;
+  }
+
+  .task div h2 {
+    margin-left: 10px;
+  }  
